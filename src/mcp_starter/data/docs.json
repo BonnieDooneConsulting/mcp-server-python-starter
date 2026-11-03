@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "getting-started",
+    "title": "Getting started with Acme Widgets",
+    "tags": ["onboarding", "basics"],
+    "updated": "2026-09-14",
+    "body": "Welcome to Acme Widgets. Create a workspace, invite your team from Settings > Members, and connect your first data source. Most teams are set up in under an hour."
+  },
+  {
+    "slug": "billing-faq",
+    "title": "Billing FAQ",
+    "tags": ["billing", "account"],
+    "updated": "2026-08-02",
+    "body": "Plans renew monthly on the day you signed up. You can switch plans at any time from Settings > Billing, and changes are prorated. Invoices are emailed to the billing contact on file."
+  },
+  {
+    "slug": "reset-password",
+    "title": "Resetting your password",
+    "tags": ["account", "security"],
+    "updated": "2026-07-21",
+    "body": "Click 'Forgot password' on the sign-in page and enter your work email. The reset link expires after 30 minutes. If your workspace uses SSO, reset your password with your identity provider instead."
+  },
+  {
+    "slug": "api-keys",
+    "title": "Creating and rotating API keys",
+    "tags": ["api", "security"],
+    "updated": "2026-09-30",
+    "body": "Admins can create API keys from Settings > Developers. Give each integration its own key so you can revoke one without breaking the others. Rotate keys at least once a year, or right away if one leaks."
+  },
+  {
+    "slug": "rate-limits",
+    "title": "API rate limits",
+    "tags": ["api"],
+    "updated": "2026-06-11",
+    "body": "Each API key can make 100 requests per minute. When you go over, the API returns HTTP 429 with a Retry-After header. Back off and retry after that many seconds."
+  },
+  {
+    "slug": "webhooks",
+    "title": "Receiving webhooks",
+    "tags": ["api", "integrations"],
+    "updated": "2026-10-03",
+    "body": "Add a webhook endpoint from Settings > Developers > Webhooks. Every event is signed with your endpoint secret, so verify the signature before trusting the payload. Failed deliveries are retried with exponential backoff for up to 24 hours."
+  },
+  {
+    "slug": "export-data",
+    "title": "Exporting your data",
+    "tags": ["account", "data"],
+    "updated": "2026-05-19",
+    "body": "Workspace owners can export everything as CSV or JSON from Settings > Data. Large exports run in the background and you'll get an email with a download link when it's ready."
+  },
+  {
+    "slug": "cancel-account",
+    "title": "Cancelling your account",
+    "tags": ["billing", "account"],
+    "updated": "2026-04-08",
+    "body": "You can cancel from Settings > Billing. Your workspace stays active until the end of the current billing period, and your data is kept for 30 days after that in case you change your mind."
+  }
+]
